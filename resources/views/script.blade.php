@@ -2,9 +2,9 @@
 
     $(document).ready(function () {
         // Setup - add a text input to each footer cell
-        $('.dataTables tfoot th').each(function () {
+        $('.datatables tfoot th').each(function () {
             var title = $(this).text();
-            $(this).html('<input type="text" style="width: 100%;" placeholder="Pesquisar ' + title + '" />');
+            $(this).html('<input type="text" style="width: 100%;" placeholder="Search ' + title + '" />');
         });
 
 
