@@ -14,8 +14,9 @@
 
 ### Install dependencies
 
-> composer install
-
+```
+composer install
+```
 ### copy .env.example to .env
 
 Change database configurations in **.env**
