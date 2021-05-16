@@ -15,7 +15,7 @@
 ### Install dependencies
 
 ```
-Composer install
+composer install
 ```
 
 ### copy .env.example to .env
