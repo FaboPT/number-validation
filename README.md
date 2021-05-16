@@ -20,7 +20,7 @@ composer install
 
 ### copy .env.example to .env
 
-Change database configurations
+Change database configurations in **.env**
 
 ```
 DB_DATABASE=/absolute/path/project/sample.db
