@@ -20,10 +20,10 @@
                         <tbody>
                         @foreach($items as $item)
                             <tr>
-                                <td> {{$item->country ? : ''}} </td>
-                                <td> {{$item->state ? : ''}} </td>
-                                <td> {{$item->countryCode ? : ''}} </td>
-                                <td> {{$item->phoneNumber ? : ''}} </td>
+                                <td> {{$item['country'] ? : ''}} </td>
+                                <td> {{$item['state'] ? 'OK' : 'NOK'}} </td>
+                                <td> {{$item['country_code'] ? : ''}} </td>
+                                <td> {{$item['phone_number'] ? : ''}} </td>
                             </tr>
                         @endforeach
                         </tbody>
